@@ -1,10 +1,10 @@
 module.exports = {
   development: {
     database: {
-      host: "localhost",
-      port: 3306,
-      name: "",
-      dialect: "mysql",
+      host: "192.168.254.1",
+      port: 3320,
+      name: "NODE",
+      dialect: "mariadb",
       user: "root",
       password: "root"
     }
